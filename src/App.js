@@ -23,7 +23,7 @@ function App() {
     <div className="App">
     <button onClick={()=>{
     var sc_address="0x1a7282EEaC80121452d7F3Bed90A6a13B14780FD";
-       window.open("https://www.authxui.vercel.app/authx/"+sc_address,"Authx","fullscreen=yes");
+       window.open("https://authxui.vercel.app/authx/"+sc_address,"Authx","fullscreen=yes");
     }}>open authx</button>
     </div>
   );
